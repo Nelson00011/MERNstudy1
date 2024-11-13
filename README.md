@@ -3,7 +3,7 @@
 `main image`
 
 ## Description:
-Outline for general FULLSTACK DEVELOPMENT PROJECTs
+MERN basic application for fun practice and Vase building. The Expression One Vase A day will teach you more than spending hours trying to perfectly make one vase. 
 
 ## Technology Stack
 - **Frontend/Client:** React.js, HTML5, CSS, framework, etc.
@@ -29,6 +29,8 @@ Outline for general FULLSTACK DEVELOPMENT PROJECTs
 > node -v
 > npm -v
 > git --version
+> npm init -y
+> npm install express mongoose dotenv 
 ```
 
 - Initial package.json & install dependenies(localhost:3000):
@@ -48,17 +50,20 @@ Outline for general FULLSTACK DEVELOPMENT PROJECTs
 > npm run start
 ```
 
-### Back-End Helpful Instructions `<examples below>`
+### Back-End Helpful Instructions `localhost:5000`:
 - Initial package.json & install dependencies:
     - Must be `cd`'d into backend/server for install
+    - 'package.json' will require a "type":"module" to be added
 ```
-> npx create-strapi-app@latest <project name>
-> cd <project name>
-> npm install --save stripe
+> mkdir backend
+> cd backend
+> 
 ```
-- Strapi Database generated (ctrl-c to exit):
+- confirm that the code is running appropriately by testing with `node serve.js`
+- you can edit the scripts in package.json to have a new "dev" call if you want
+
 ```
-> npm run develop
+> npm run dev
 ```
 - **Avoid** *npm run start* and use the `npm run develop`. 
 - Allow server to restart with each edit (see resources): 
@@ -114,7 +119,7 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 - Google Fonts [here](https://fonts.google.com/)
 
 #### **helpful hint:** 
-- `useful hints for future projects to go faster`
+- kill backend with `ctr-C`
 - console log testing with `ctr-alt-l` 
 - Always Stay Positive & Triple Check Permissions :)
 
