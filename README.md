@@ -1,4 +1,4 @@
-<h1 align="center">projectsFULLSTACK</h1>
+<h1 align="center">MERN Study - Vase 1</h1>
 
 `main image`
 
@@ -8,7 +8,7 @@ MERN basic application for fun practice and Vase building. The Expression One Va
 ## Technology Stack
 - **Frontend/Client:** React.js, HTML5, CSS, framework, etc.
 - **API:** api calls or external sources used
-- **Backend/Server:** node.js/express or python alternatives, include databases
+- **Backend/Server:** node.js/express, include databases
 
 <h2 align="center">Video:</h2>
 
@@ -31,6 +31,7 @@ MERN basic application for fun practice and Vase building. The Expression One Va
 > git --version
 > npm init -y
 > npm install express mongoose dotenv 
+> npm install nodemon -D
 ```
 
 - Initial package.json & install dependenies(localhost:3000):
@@ -57,13 +58,22 @@ MERN basic application for fun practice and Vase building. The Expression One Va
 ```
 > mkdir backend
 > cd backend
-> 
 ```
 - confirm that the code is running appropriately by testing with `node serve.js`
-- you can edit the scripts in package.json to have a new "dev" call if you want
+- once `nodemon` is installed you can continue to run once dev settings are updated
+```
+npm run dev
 
 ```
-> npm run dev
+- you can edit the scripts in package.json to have a new "dev" call if you want
+- MongoDB Drivers
+    - When getting MongoDB Driver String be aware you may or may not need to insert the passcode.
+    - `process.env.MONGO_URI` confirmation via console.log
+    - Test using Postman: see resources
+
+
+```
+> npm install mongodb
 ```
 - **Avoid** *npm run start* and use the `npm run develop`. 
 - Allow server to restart with each edit (see resources): 
@@ -104,10 +114,11 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 - `Tech used and links associated`
 - `Tech used and links associated`
 
-`<examples below>`
+- **Nodemon** for in development settings [here](https://www.npmjs.com/package/nodemon)
 - **PostMan** for API Tests [here](https://www.postman.com/)
-    - jsonwebtoken / [jwt](https://jwt.io/) for Authentification & install [here](https://www.npmjs.com/package/jsonwebtoken)
-    - jwt Debugger [here](https://jwt.io/#debugger-io)
+    - Make collections
+    - New Request to test out the backend capabilities
+    
 - [bcrypt.js](https://www.npmjs.com/package/bcryptjs) part of password hasing for user Authentification. 
 
 
@@ -119,9 +130,13 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 - Google Fonts [here](https://fonts.google.com/)
 
 #### **helpful hint:** 
-- kill backend with `ctr-C`
+- kill backend with `Ctr-C`
 - console log testing with `ctr-alt-l` 
+- API calls too many times will cause an error? 
+- confirm in package.json the dependencies exist when installing
 - Always Stay Positive & Triple Check Permissions :)
+
+
 
 
 
@@ -133,5 +148,9 @@ backend
 frontend
 images
 screenShots [contains video link]
+
+https://www.youtube.com/watch?v=O3BUHwfHf84
+around 45 minuts : MODULE NOT WORKING
+FIX CODE
 
 -->
