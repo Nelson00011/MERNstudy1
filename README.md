@@ -23,7 +23,7 @@ MERN basic application for fun practice and Vase building. The Expression *One V
 
 ## Run Code (Environment)
 
-### Front-End Instructions `localhost:3000`:
+### Front-End Instructions `localhost:5173`:
 - confirm that config is appropriate:
 ```
 > node -v
@@ -34,7 +34,7 @@ MERN basic application for fun practice and Vase building. The Expression *One V
 > npm install nodemon -D
 ```
 
-- Initial package.json & install dependenies(localhost:3000):
+- Initial package.json & install dependenies(localhost:5173):
     - Must be `cd`'d into frontend/client for install
     - MUI, `react-router-dom`, redux, formik, etc... (see resources)
 ```
@@ -147,6 +147,8 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 Future Structure (stx):
 backend
 frontend
+http://localhost:5173/
+
 images
 screenShots [contains video link]
 
