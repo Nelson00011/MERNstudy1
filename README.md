@@ -3,12 +3,12 @@
 `main image`
 
 ## Description:
-MERN basic application for fun practice and Vase building. The Expression One Vase A day will teach you more than spending hours trying to perfectly make one vase. 
+MERN basic application for fun practice and Vase building. The Expression *One Vase A day will teach you more than spending hours trying to perfectly make one vase.* 
 
 ## Technology Stack
 - **Frontend/Client:** React.js, HTML5, CSS, framework, etc.
 - **API:** api calls or external sources used
-- **Backend/Server:** node.js/express, include databases
+- **Backend/Server:** node.js/express, MongoDB
 
 <h2 align="center">Video:</h2>
 
@@ -23,7 +23,7 @@ MERN basic application for fun practice and Vase building. The Expression One Va
 
 ## Run Code (Environment)
 
-### Front-End Instructions `<examples below>`
+### Front-End Instructions `localhost:3000`:
 - confirm that config is appropriate:
 ```
 > node -v
@@ -51,7 +51,7 @@ MERN basic application for fun practice and Vase building. The Expression One Va
 > npm run start
 ```
 
-### Back-End Helpful Instructions `localhost:5000`:
+### Back-End Instructions `localhost:5000`:
 - Initial package.json & install dependencies:
     - Must be `cd`'d into backend/server for install
     - 'package.json' will require a "type":"module" to be added
@@ -76,18 +76,19 @@ npm run dev
 > npm install mongodb
 ```
 - **Avoid** *npm run start* and use the `npm run develop`. 
-- Allow server to restart with each edit (see resources): 
-    - **Content-Type Builder**: Item entry
-    - **Media Library**: upload photos
-    - **Permissions**: Settings > Roles > Public
 - When using .env variables remember to [install prior](https://www.npmjs.com/package/dotenv/v/14.0.0)
 ```
 npm install dotenv --save
 ```
--
-    - Create a .env file in the root directory of your project.
+- Create a .env file in the root directory of your project.
     - Import and configure dotenv.
     - Establish a .gitignore [here](https://git-scm.com/docs/gitignore)
+
+- Chaikra Material
+```
+>  npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+```
+
 
 - In frontend fetch `item` from backend (*localhost:1337*):
 ```
@@ -119,7 +120,7 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
     - Make collections
     - New Request to test out the backend capabilities
     
-- [bcrypt.js](https://www.npmjs.com/package/bcryptjs) part of password hasing for user Authentification. 
+- [Chakra -UI](https://www.chakra-ui.com/)
 
 
 #### **style:** 
