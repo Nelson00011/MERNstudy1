@@ -37,15 +37,11 @@ MERN basic application for fun practice and Vase building. The Expression *One V
 - Initial package.json & install dependenies(localhost:5173):
     - Must be `cd`'d into frontend/client for install
     - MUI, `react-router-dom`, redux, formik, etc... (see resources)
+
 ```
-> npx create-react-app <project name>
-> cd <project name>
-> npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
-> npm install --save react-router-dom
-> npm install react-redux @reduxjs/toolkit
-> npm install formik yup dotenv react-responsive-carousel
-> npm install --save @stripe/react-stripe-js @stripe/stripe-js
+> npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^6
 ```
+
 - Test front-end once pages are generated (ctrl-c to exit):
 ```
 > npm run start
@@ -120,7 +116,8 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
     - Make collections
     - New Request to test out the backend capabilities
     
-- [Chakra -UI](https://www.chakra-ui.com/)
+- [Chakra-UI](https://www.chakra-ui.com/)
+    - Chakra-UI with [vite-guide](https://v1.chakra-ui.com/guides/getting-started/vite-guide)
 
 
 #### **style:** 
@@ -135,6 +132,7 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 - console log testing with `ctr-alt-l` 
 - API calls too many times will cause an error? 
 - confirm in package.json the dependencies exist when installing
+- confirm there is only one node_modules? 
 - Always Stay Positive & Triple Check Permissions :)
 
 
@@ -155,5 +153,6 @@ screenShots [contains video link]
 https://www.youtube.com/watch?v=O3BUHwfHf84
 around 45 minuts : MODULE NOT WORKING
 FIX CODE
+-- WORKS WITHOUT CHAKRA to get to App.jsx
 
 -->

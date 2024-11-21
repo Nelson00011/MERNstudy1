@@ -17,5 +17,4 @@ router.put("/:id", updateProduct)
 //COMMENT: delete products
 router.delete("/:id", deleteProduct);
 
-
 export default router;
